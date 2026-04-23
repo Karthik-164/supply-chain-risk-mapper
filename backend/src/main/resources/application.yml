@@ -1,1 +1,3 @@
-# Day 1 scaffold placeholder
+ai:
+  service:
+    base-url: ${AI_SERVICE_BASE_URL:http://localhost:5000}
