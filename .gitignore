@@ -1,4 +1,5 @@
 .env
+.env.example
 target/
 node_modules/
 __pycache__/
