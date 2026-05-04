@@ -1,0 +1,4 @@
+prompt_name,test_input_id,accuracy,completeness,format_compliance,clarity,safety,average_score,notes
+/describe,,,,,,,,
+/recommend,,,,,,,,
+/generate-report,,,,,,,,

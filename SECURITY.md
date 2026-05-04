@@ -22,15 +22,40 @@ Day 2 security documentation started for Tool-44 Supply Chain Risk Mapper. This 
 
 ## Test Evidence
 
-Detail not provided in document.
+### Day 5 Security Tests
+
+Local security verification was run against the Flask middleware with `ai-service/run_security_checks.py`.
+
+1. Empty JSON input is rejected with HTTP 400.
+2. Obvious SQL injection payloads are rejected with HTTP 400.
+3. Prompt injection payloads are rejected with HTTP 400.
+4. HTML content is stripped before sanitized input is used.
+5. Health endpoint continues to return HTTP 200.
+
+### Day 7 OWASP ZAP Status
+
+OWASP ZAP was not available in the current local environment, so a live scan and exported report could not be produced here.
 
 ## Findings Fixed
 
-Detail not provided in document.
+1. Added input sanitisation that strips HTML before request data is used.
+2. Added rejection for empty JSON input.
+3. Added rejection for obvious SQL injection patterns.
+4. Added rejection for prompt injection attempts.
+5. Added Flask rate limiting at 30 requests per minute.
+6. Groq API calls already use retries, backoff, and error logging.
 
 ## Residual Risks
 
-Detail not provided in document.
+1. OWASP ZAP scan report is still pending because the tool is not installed in this environment.
+2. Real endpoint-specific security validation for `/describe`, `/recommend`, and `/generate-report` depends on those routes being implemented.
+3. Rate limiting currently uses in-memory storage, which is acceptable for local development but not ideal for a scaled deployment.
+
+## Medium Fix Plan
+
+1. Run OWASP ZAP after the full AI endpoints are available and export the report.
+2. Review any Medium findings related to headers, information disclosure, or error responses.
+3. Move rate-limit storage to Redis when the shared infrastructure is ready.
 
 ## Team Sign-Off
 

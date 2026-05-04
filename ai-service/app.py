@@ -28,6 +28,16 @@ PROMPT_INJECTION_PATTERNS = [
     ]
 ]
 
+SQL_INJECTION_PATTERNS = [
+    re.compile(pattern, re.IGNORECASE)
+    for pattern in [
+        r"(--|#|/\*|\*/|;)",
+        r"\b(drop|delete|truncate|alter|union\s+select|insert\s+into|update\s+\w+\s+set)\b",
+        r"(\bor\b|\band\b)\s+\d+\s*=\s*\d+",
+        r"'[\s]*or[\s]+'?1'?\s*=\s*'?1",
+    ]
+]
+
 
 def contains_prompt_injection(value: Any) -> bool:
     if isinstance(value, str):
@@ -37,6 +47,26 @@ def contains_prompt_injection(value: Any) -> bool:
     if isinstance(value, dict):
         return any(contains_prompt_injection(item) for item in value.values())
     return False
+
+
+def contains_sql_injection(value: Any) -> bool:
+    if isinstance(value, str):
+        return any(pattern.search(value) for pattern in SQL_INJECTION_PATTERNS)
+    if isinstance(value, list):
+        return any(contains_sql_injection(item) for item in value)
+    if isinstance(value, dict):
+        return any(contains_sql_injection(item) for item in value.values())
+    return False
+
+
+def has_empty_input(value: Any) -> bool:
+    if isinstance(value, str):
+        return value.strip() == ""
+    if isinstance(value, list):
+        return len(value) == 0 or any(has_empty_input(item) for item in value)
+    if isinstance(value, dict):
+        return len(value) == 0 or any(has_empty_input(item) for item in value.values())
+    return value is None
 
 
 def strip_html(value: Any) -> Any:
@@ -59,10 +89,18 @@ def sanitize_json_input():
     if payload is None:
         return None
 
-    if contains_prompt_injection(payload):
+    sanitized_payload = strip_html(payload)
+
+    if has_empty_input(sanitized_payload):
+        return jsonify({"error": "Empty input is not allowed"}), 400
+
+    if contains_sql_injection(sanitized_payload):
+        return jsonify({"error": "SQL injection pattern detected"}), 400
+
+    if contains_prompt_injection(sanitized_payload):
         return jsonify({"error": "Prompt injection detected"}), 400
 
-    g.sanitized_json = strip_html(payload)
+    g.sanitized_json = sanitized_payload
     return None
 
 
