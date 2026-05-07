@@ -1,0 +1,577 @@
+{
+  "describe": {
+    "average_score_out_of_5": 5.0,
+    "results": [
+      {
+        "input_id": 1,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "description": "The supply chain is at risk due to delays at the port affecting Supplier A, who is currently held up due to ongoing customs checks. This delay may lead to a shortage of essential materials, potentially disrupting production and impacting overall business operations. As a result, the company may need to explore alternative suppliers or negotiate with Supplier A to mitigate the risk of delayed shipments. The situation requires close monitoring to minimize the impact on the supply chain and ensure timely delivery of goods.",
+          "generated_at": "2026-05-07T12:11:11.400644+00:00",
+          "is_fallback": false,
+          "model": "llama-3.3-70b-versatile"
+        }
+      },
+      {
+        "input_id": 2,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "description": "The region west is currently experiencing a shortage of raw materials, which is impacting the availability of components. This shortage may lead to production delays or disruptions in the supply chain. As a result, businesses in the region may face challenges in meeting customer demand, potentially affecting their revenue and reputation. The shortage is expected to continue until the raw material supply is replenished or alternative sources are secured.",
+          "generated_at": "2026-05-07T12:11:11.889571+00:00",
+          "is_fallback": false,
+          "model": "llama-3.3-70b-versatile"
+        }
+      },
+      {
+        "input_id": 3,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "description": "A recent carrier strike has resulted in the interruption of planned shipment departures, potentially leading to delays and increased costs for businesses reliant on these shipments. This disruption may have a ripple effect throughout the supply chain, impacting the availability of goods and materials. As a result, companies may need to explore alternative shipping arrangements or mitigate the impact of delayed shipments on their operations. The strike's duration and resolution will be critical in determining the overall impact on the supply chain.",
+          "generated_at": "2026-05-07T12:11:12.473541+00:00",
+          "is_fallback": false,
+          "model": "llama-3.3-70b-versatile"
+        }
+      },
+      {
+        "input_id": 4,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "description": "The warehouse is currently facing capacity constraints due to delayed outbound loads, which can lead to increased storage costs and reduced efficiency. This delay may also cause a ripple effect throughout the supply chain, potentially impacting delivery times and customer satisfaction. As a result, it is essential to address the root cause of the delay and implement a plan to get outbound loads back on schedule. Failure to do so may lead to further disruptions and potential losses for the business.",
+          "generated_at": "2026-05-07T12:11:13.162240+00:00",
+          "is_fallback": false,
+          "model": "llama-3.3-70b-versatile"
+        }
+      },
+      {
+        "input_id": 5,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "description": "A recent compliance issue resulted in a shipment being paused for additional inspection, potentially disrupting the supply chain. This pause may lead to delays in delivery and impact the overall efficiency of the supply chain. The inspection is intended to ensure that the shipment meets regulatory requirements, but it may still cause inconvenience to customers and stakeholders. The duration of the pause and the outcome of the inspection will determine the extent of the disruption to the supply chain.",
+          "generated_at": "2026-05-07T12:11:13.599395+00:00",
+          "is_fallback": false,
+          "model": "llama-3.3-70b-versatile"
+        }
+      },
+      {
+        "input_id": 6,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "description": "The company is facing supply-chain risk due to demand volatility, which is creating replenishment pressure on critical parts. This volatility can lead to stockouts, overstocking, or obsolescence, ultimately affecting the company's ability to meet customer demand. As a result, the business may experience increased costs, reduced revenue, and damaged relationships with customers. Effective demand forecasting and inventory management strategies are necessary to mitigate this risk and ensure a stable supply chain.",
+          "generated_at": "2026-05-07T12:11:14.222694+00:00",
+          "is_fallback": false,
+          "model": "llama-3.3-70b-versatile"
+        }
+      },
+      {
+        "input_id": 7,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "description": "Weather disruption is causing significant delays in ocean transit times, with an average extension of four days. This increase in transit time can lead to inventory shortages, delayed deliveries, and increased costs for businesses reliant on timely shipments. As a result, companies may need to reassess their supply chain strategies and consider alternative shipping routes or modes of transportation to mitigate the impact of weather-related disruptions. The extended transit times may also lead to increased risk of inventory damage or loss, further exacerbating the supply chain risks.",
+          "generated_at": "2026-05-07T12:11:14.787723+00:00",
+          "is_fallback": false,
+          "model": "llama-3.3-70b-versatile"
+        }
+      },
+      {
+        "input_id": 8,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "description": "A quality defect has triggered a production hold on the supplier's side, potentially disrupting the supply chain and impacting delivery timelines. This hold may lead to delays or shortages of critical components, affecting the overall production schedule. The supplier's ability to rectify the quality issue and resume production will be crucial in mitigating the risk of further disruptions. Effective communication and collaboration with the supplier will be necessary to minimize the impact on the business.",
+          "generated_at": "2026-05-07T12:11:15.426414+00:00",
+          "is_fallback": false,
+          "model": "llama-3.3-70b-versatile"
+        }
+      },
+      {
+        "input_id": 9,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "description": "The reliance on a single supplier for battery modules poses a significant supply-chain risk, as it increases the likelihood of production disruptions and delays. If the sole supplier experiences any issues, such as manufacturing problems or logistical challenges, it can have a ripple effect throughout the entire supply chain. This can lead to shortages, increased costs, and ultimately, impact the overall viability of the project. By not diversifying the supplier base, the project is exposed to a higher level of risk that could be mitigated with a more robust procurement strategy.",
+          "generated_at": "2026-05-07T12:11:16.112315+00:00",
+          "is_fallback": false,
+          "model": "llama-3.3-70b-versatile"
+        }
+      },
+      {
+        "input_id": 10,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "description": "The supply chain is at risk due to inadequate cross-border documentation, leading to inefficiencies and delays. Gaps in documentation are causing holdups in the final-mile handoff, resulting in longer delivery times and potential losses. This risk can be mitigated by implementing standardized and compliant documentation processes. Effective documentation management can help streamline cross-border transactions and improve overall supply chain resilience.",
+          "generated_at": "2026-05-07T12:11:16.646308+00:00",
+          "is_fallback": false,
+          "model": "llama-3.3-70b-versatile"
+        }
+      }
+    ]
+  },
+  "recommend": {
+    "average_score_out_of_5": 5.0,
+    "results": [
+      {
+        "input_id": 1,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": [
+          {
+            "action_type": "mitigate",
+            "description": "Diversify the supplier base to reduce dependence on supplier B and minimize the impact of future delays.",
+            "priority": "high"
+          },
+          {
+            "action_type": "review",
+            "description": "Analyze the contract with supplier B to identify potential clauses for renegotiation or penalties for non-compliance with delivery schedules.",
+            "priority": "medium"
+          },
+          {
+            "action_type": "communicate",
+            "description": "Notify downstream stakeholders and customers of potential production delays and provide regular updates on the status of the issue resolution.",
+            "priority": "low"
+          }
+        ]
+      },
+      {
+        "input_id": 2,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": [
+          {
+            "action_type": "mitigate",
+            "description": "Diversify the supplier base to reduce dependence on a single supplier and minimize the impact of quality incidents.",
+            "priority": "high"
+          },
+          {
+            "action_type": "review",
+            "description": "Conduct a thorough review of the existing supplier contracts to identify potential risks and opportunities for renegotiation.",
+            "priority": "medium"
+          },
+          {
+            "action_type": "communicate",
+            "description": "Notify stakeholders and customers about the supplier quality incident and provide regular updates on the sourcing decisions and their potential impact.",
+            "priority": "low"
+          }
+        ]
+      },
+      {
+        "input_id": 3,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": [
+          {
+            "action_type": "monitor",
+            "description": "Track ocean freight congestion in real-time to anticipate and prepare for potential lead-time disruptions.",
+            "priority": "high"
+          },
+          {
+            "action_type": "review",
+            "description": "Analyze current supply-chain contracts to identify potential clauses or terms that can be renegotiated to mitigate the impact of lead-time variability.",
+            "priority": "medium"
+          },
+          {
+            "action_type": "mitigate",
+            "description": "Diversify shipping routes or modes of transportation to reduce dependence on congested ocean freight lanes and minimize lead-time variability.",
+            "priority": "high"
+          }
+        ]
+      },
+      {
+        "input_id": 4,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": [
+          {
+            "action_type": "review",
+            "description": "Analyze historical shipment data to identify patterns and causes of repeated disruptions in air freight",
+            "priority": "high"
+          },
+          {
+            "action_type": "communicate",
+            "description": "Notify key stakeholders of the rising expedited air freight spend and collaborate to develop a contingency plan",
+            "priority": "medium"
+          },
+          {
+            "action_type": "mitigate",
+            "description": "Diversify transportation modes by exploring alternative freight options, such as sea or land transport, to reduce reliance on air freight",
+            "priority": "low"
+          }
+        ]
+      },
+      {
+        "input_id": 5,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": [
+          {
+            "action_type": "mitigate",
+            "description": "Complete the alternative supplier onboarding process for the critical component as soon as possible to minimize potential disruptions.",
+            "priority": "high"
+          },
+          {
+            "action_type": "review",
+            "description": "Review the current supplier's performance and reliability to determine if they can still meet the project's needs while the alternative supplier onboarding is being completed.",
+            "priority": "medium"
+          },
+          {
+            "action_type": "communicate",
+            "description": "Notify stakeholders of the potential risk and provide regular updates on the status of the alternative supplier onboarding process to ensure transparency and manage expectations.",
+            "priority": "low"
+          }
+        ]
+      },
+      {
+        "input_id": 6,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": [
+          {
+            "action_type": "mitigate",
+            "description": "Initiate an expedited shipment for the high-priority SKU to replenish inventory buffers.",
+            "priority": "high"
+          },
+          {
+            "action_type": "review",
+            "description": "Analyze sales forecasts and historical demand to determine if the current inventory buffer levels are adequate for the high-priority SKU.",
+            "priority": "medium"
+          },
+          {
+            "action_type": "communicate",
+            "description": "Notify stakeholders and customers of potential delays or stockouts for the high-priority SKU due to low inventory buffer levels.",
+            "priority": "low"
+          }
+        ]
+      },
+      {
+        "input_id": 7,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": [
+          {
+            "action_type": "monitor",
+            "description": "Closely track the regional unrest and its impact on the transportation lane to anticipate potential disruptions.",
+            "priority": "high"
+          },
+          {
+            "action_type": "review",
+            "description": "Assess existing transportation contracts and agreements to identify potential clauses or provisions that can be leveraged to mitigate the disruption.",
+            "priority": "medium"
+          },
+          {
+            "action_type": "mitigate",
+            "description": "Develop a contingency plan to divert shipments through alternative routes or modes of transportation to minimize the impact of the disruption.",
+            "priority": "high"
+          }
+        ]
+      },
+      {
+        "input_id": 8,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": [
+          {
+            "action_type": "review",
+            "description": "Review forecasting models and algorithms to identify areas for improvement and implement more accurate predictive analytics.",
+            "priority": "high"
+          },
+          {
+            "action_type": "mitigate",
+            "description": "Implement a buffer stock policy to account for potential forecasting errors and minimize the impact of stock imbalances.",
+            "priority": "medium"
+          },
+          {
+            "action_type": "communicate",
+            "description": "Establish regular communication with procurement teams and stakeholders to ensure that forecasting errors and stock imbalances are addressed promptly and collaboratively.",
+            "priority": "low"
+          }
+        ]
+      },
+      {
+        "input_id": 9,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": [
+          {
+            "action_type": "mitigate",
+            "description": "Implement temperature monitoring systems to track the temperature of goods in real-time and receive alerts when deviations occur.",
+            "priority": "high"
+          },
+          {
+            "action_type": "review",
+            "description": "Conduct a thorough review of the current cold-chain logistics to identify gaps and areas for improvement.",
+            "priority": "medium"
+          },
+          {
+            "action_type": "communicate",
+            "description": "Establish clear communication channels with suppliers, manufacturers, and logistics providers to ensure that all parties are aware of the temperature requirements and protocols.",
+            "priority": "low"
+          }
+        ]
+      },
+      {
+        "input_id": 10,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": [
+          {
+            "action_type": "mitigate",
+            "description": "Diversify the supplier base to reduce dependence on the high-risk vendor",
+            "priority": "high"
+          },
+          {
+            "action_type": "review",
+            "description": "Assess the vendor's performance and identify the root causes of the missed delivery commitments",
+            "priority": "medium"
+          },
+          {
+            "action_type": "communicate",
+            "description": "Notify stakeholders of the potential supply chain disruption and provide regular updates on the status of the high-risk vendor",
+            "priority": "low"
+          }
+        ]
+      }
+    ]
+  },
+  "generate-report": {
+    "average_score_out_of_5": 5.0,
+    "results": [
+      {
+        "input_id": 1,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "generated_at": "2026-05-07T12:11:24.198806+00:00",
+          "is_fallback": false,
+          "key_items": [
+            "Logistics constraints",
+            "Production capacity limitations",
+            "Component shortages"
+          ],
+          "model": "llama-3.3-70b-versatile",
+          "overview": "The current electronics sourcing landscape is facing significant challenges due to multi-region delays, affecting the availability of critical components and finished goods. This situation is exacerbated by ongoing logistics and production constraints, leading to prolonged lead times and elevated costs.",
+          "recommendations": [
+            "Diversify supplier base",
+            "Implement risk-based inventory management",
+            "Develop contingency plans for future disruptions"
+          ],
+          "summary": "Multi-region delays are impacting electronics sourcing, causing supply chain disruptions. These delays are attributed to various factors, including logistics and production issues. As a result, businesses are experiencing increased lead times and costs.",
+          "title": "Electronics Sourcing Disruption Report"
+        }
+      },
+      {
+        "input_id": 2,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "generated_at": "2026-05-07T12:11:25.068372+00:00",
+          "is_fallback": false,
+          "key_items": [
+            "Supplier quality failure",
+            "Assembly operations impacted",
+            "Corrective action plan"
+          ],
+          "model": "llama-3.3-70b-versatile",
+          "overview": "The supplier quality failure has affected the assembly line, causing a disruption in the production schedule and potentially compromising product quality. The root cause of the failure is under investigation, and a corrective action plan is being developed to address the issue and prevent similar failures in the future.",
+          "recommendations": [
+            "Conduct a thorough root cause analysis",
+            "Implement additional quality control measures",
+            "Develop a contingency plan for future supplier failures"
+          ],
+          "summary": "A supplier quality failure has impacted assembly operations, resulting in production delays and potential losses. The failure has been identified and isolated, but corrective actions are needed to prevent future occurrences. Immediate attention is required to mitigate the effects and restore normal operations.",
+          "title": "Supplier Quality Failure Impact Report"
+        }
+      },
+      {
+        "input_id": 3,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "generated_at": "2026-05-07T12:11:26.000781+00:00",
+          "is_fallback": false,
+          "key_items": [
+            "Increased cargo volumes",
+            "Inadequate port infrastructure",
+            "Inefficient terminal operations"
+          ],
+          "model": "llama-3.3-70b-versatile",
+          "overview": "Port congestion occurs when the volume of cargo exceeds the capacity of a port, leading to vessel delays and increased costs. This can be caused by various factors, including increased demand, inadequate infrastructure, and inefficient operations. Understanding the root causes of port congestion is crucial to developing effective strategies to address this issue.",
+          "recommendations": [
+            "Invest in port infrastructure upgrades",
+            "Implement efficient terminal operating systems",
+            "Diversify shipping routes and carriers"
+          ],
+          "summary": "Port congestion is causing significant disruptions to supply chains, resulting in missed vessel connections and delayed shipments. This report highlights the key issues and provides recommendations to mitigate these risks. The impact of port congestion is far-reaching, affecting multiple stakeholders and industries.",
+          "title": "Port Congestion Risk Report"
+        }
+      },
+      {
+        "input_id": 4,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "generated_at": "2026-05-07T12:11:26.846897+00:00",
+          "is_fallback": false,
+          "key_items": [
+            "Incomplete or inaccurate documentation",
+            "Non-compliance with customs regulations",
+            "Lack of proper planning and communication"
+          ],
+          "model": "llama-3.3-70b-versatile",
+          "overview": "Customs-related holds on cross-border shipments can have significant impacts on businesses, including delayed deliveries, increased costs, and damage to customer relationships. It is essential to understand the causes of these holds and take proactive steps to prevent them.",
+          "recommendations": [
+            "Verify documentation accuracy and completeness before shipping",
+            "Ensure compliance with all relevant customs regulations and laws",
+            "Establish clear communication channels with customs authorities and logistics providers"
+          ],
+          "summary": "This report highlights the key issues and risks associated with customs-related holds on cross-border shipments, including delays and potential losses. The holds are often caused by incomplete or inaccurate documentation, as well as non-compliance with customs regulations. These issues can be mitigated with proper planning and compliance measures.",
+          "title": "Customs-Related Holds Report"
+        }
+      },
+      {
+        "input_id": 5,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "generated_at": "2026-05-07T12:11:27.535731+00:00",
+          "is_fallback": false,
+          "key_items": [
+            "Supply chain disruptions",
+            "Demand fluctuations",
+            "Quality control issues"
+          ],
+          "model": "llama-3.3-70b-versatile",
+          "overview": "Component shortages can arise from various factors, including supply chain disruptions, demand fluctuations, and quality control issues, ultimately leading to production downtime and revenue losses.",
+          "recommendations": [
+            "Diversify supplier base",
+            "Implement just-in-time inventory management",
+            "Develop a contingency plan for critical components"
+          ],
+          "summary": "Production downtime due to component shortages can significantly impact business operations. This report highlights key risks and provides recommendations to mitigate them. Implementing these strategies can help minimize downtime and ensure continuous production.",
+          "title": "Component Shortage Risk Report"
+        }
+      },
+      {
+        "input_id": 6,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "generated_at": "2026-05-07T12:11:28.502819+00:00",
+          "is_fallback": false,
+          "key_items": [
+            "Supplier insolvency",
+            "Geopolitical instability",
+            "Natural disasters"
+          ],
+          "model": "llama-3.3-70b-versatile",
+          "overview": "Single-source dependency occurs when a business relies on a single supplier or vendor for a critical component or service, creating a concentration of risk that can have significant consequences in the event of a disruption.",
+          "recommendations": [
+            "Diversify suppliers",
+            "Develop a contingency plan",
+            "Negotiate contractual protections"
+          ],
+          "summary": "This report highlights the risks associated with relying on a single source for critical components or services. Single-source dependency can lead to supply chain disruptions and increased vulnerability to external factors. It is essential to identify and mitigate these risks to ensure business continuity.",
+          "title": "Single-Source Dependency Risk Report"
+        }
+      },
+      {
+        "input_id": 7,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "generated_at": "2026-05-07T12:11:29.301604+00:00",
+          "is_fallback": false,
+          "key_items": [
+            "Equipment failures",
+            "Staffing shortages",
+            "Inefficient inventory management"
+          ],
+          "model": "llama-3.3-70b-versatile",
+          "overview": "The current week has seen a significant decline in warehouse throughput due to various bottlenecks, impacting overall efficiency and productivity.",
+          "recommendations": [
+            "Conduct equipment maintenance",
+            "Hire temporary staff",
+            "Implement a more efficient inventory system"
+          ],
+          "summary": "This report identifies the key bottlenecks affecting warehouse throughput in the current week, including equipment failures and staffing shortages. The bottlenecks have resulted in significant delays and increased costs. Immediate attention is required to mitigate these issues.",
+          "title": "Warehouse Throughput Bottlenecks Report"
+        }
+      },
+      {
+        "input_id": 8,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "generated_at": "2026-05-07T12:11:30.506173+00:00",
+          "is_fallback": false,
+          "key_items": [
+            "Temperature excursions during transportation",
+            "Inadequate warehouse temperature control",
+            "Insufficient packaging and insulation"
+          ],
+          "model": "llama-3.3-70b-versatile",
+          "overview": "The pharmaceutical industry relies heavily on a complex logistics network to deliver temperature-sensitive products to patients worldwide. Temperature excursions during transportation and storage can have devastating consequences, including reduced product efficacy and increased risk of patient harm. As such, it is crucial to identify and mitigate temperature-control risks in pharmaceutical logistics to ensure the quality and safety of these critical products.",
+          "recommendations": [
+            "Implement real-time temperature monitoring systems",
+            "Conduct regular risk assessments and audits",
+            "Develop and enforce standard operating procedures for temperature control"
+          ],
+          "summary": "Temperature-control risks in pharmaceutical logistics pose a significant threat to the integrity of temperature-sensitive products. Failure to maintain optimal temperatures can result in product degradation or loss, leading to financial losses and compromised patient safety. Effective risk management strategies are essential to mitigate these risks.",
+          "title": "Temperature-Control Risks in Pharmaceutical Logistics"
+        }
+      },
+      {
+        "input_id": 9,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "generated_at": "2026-05-07T12:11:32.992906+00:00",
+          "is_fallback": false,
+          "key_items": [
+            "Port congestion in Asian and European hubs",
+            "Carrier schedule reliability and changes",
+            "Customs clearance and regulatory compliance"
+          ],
+          "model": "llama-3.3-70b-versatile",
+          "overview": "The Asia-to-EU trade lane is experiencing significant lead time fluctuations due to factors such as port congestion, carrier schedule changes, and customs clearance issues, resulting in increased supply chain uncertainty and costs.",
+          "recommendations": [
+            "Diversify carrier and route options to mitigate risk",
+            "Implement real-time tracking and monitoring of shipments",
+            "Develop contingency plans for potential lead time disruptions"
+          ],
+          "summary": "Fluctuating lead times across Asia-to-EU lanes are causing supply chain disruptions, with delays and increased costs affecting businesses. The report highlights key factors contributing to these fluctuations and provides recommendations for mitigation. Lead time volatility is expected to continue due to various market and operational factors.",
+          "title": "Asia-to-EU Lead Time Volatility Report"
+        }
+      },
+      {
+        "input_id": 10,
+        "status_code": 200,
+        "score_out_of_5": 5,
+        "response": {
+          "generated_at": "2026-05-07T12:11:34.031612+00:00",
+          "is_fallback": false,
+          "key_items": [
+            "Vendor communication breakdowns",
+            "Inadequate inventory management",
+            "Insufficient logistics planning"
+          ],
+          "model": "llama-3.3-70b-versatile",
+          "overview": "The strategic vendor's missed deliveries have been a recurring issue, with a total of 15 incidents reported over the past quarter, resulting in an average delay of 3 days per incident.",
+          "recommendations": [
+            "Implement a vendor scorecard to track performance",
+            "Conduct regular inventory audits and reconciliations",
+            "Develop a contingency plan for logistics disruptions"
+          ],
+          "summary": "The strategic vendor has experienced a significant number of missed deliveries, resulting in supply chain disruptions and potential revenue losses. This report aims to identify the root causes and provide recommendations for improvement. The missed deliveries have impacted production schedules and customer satisfaction.",
+          "title": "Missed Deliveries from Strategic Vendor"
+        }
+      }
+    ]
+  }
+}

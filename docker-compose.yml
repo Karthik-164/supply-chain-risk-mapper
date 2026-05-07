@@ -1,1 +1,17 @@
-# Day 1 scaffold placeholder
+services:
+  ai-service:
+    build:
+      context: .
+      dockerfile: ai-service/Dockerfile
+    env_file:
+      - .env
+    ports:
+      - "5000:5000"
+    environment:
+      RATE_LIMIT_STORAGE_URI: ${RATE_LIMIT_STORAGE_URI:-memory://}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s

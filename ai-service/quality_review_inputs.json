@@ -1,0 +1,38 @@
+{
+  "describe": [
+    "Supplier A is delayed at the port due to customs checks.",
+    "Raw material shortage is affecting component availability in region west.",
+    "A carrier strike has interrupted planned shipment departures.",
+    "Warehouse capacity is constrained because outbound loads are behind schedule.",
+    "A compliance issue paused a shipment for additional inspection.",
+    "Demand volatility is creating replenishment pressure on critical parts.",
+    "Weather disruption is extending ocean transit times by four days.",
+    "A quality defect triggered a supplier-side production hold.",
+    "Single-source dependency is increasing risk exposure for battery modules.",
+    "Cross-border documentation gaps are slowing final-mile handoff."
+  ],
+  "recommend": [
+    "Critical inbound delay from supplier B is affecting production scheduling.",
+    "Supplier quality incident is forcing urgent sourcing decisions.",
+    "Ocean freight congestion is increasing lead-time variability.",
+    "Expedited air freight spend is rising due to repeated disruption.",
+    "Alternative supplier onboarding is incomplete for a critical component.",
+    "Inventory buffers are below safe levels for a high-priority SKU.",
+    "Regional unrest is disrupting a key transportation lane.",
+    "Forecast error is causing procurement mismatch and stock imbalance.",
+    "Temperature-sensitive goods are at risk because of cold-chain gaps.",
+    "A high-risk vendor has missed multiple delivery commitments."
+  ],
+  "generate-report": [
+    "Create a report for multi-region delays affecting electronics sourcing.",
+    "Create a report for a supplier quality failure impacting assembly operations.",
+    "Create a report for port congestion and missed vessel connections.",
+    "Create a report for customs-related holds on cross-border shipments.",
+    "Create a report for production downtime caused by component shortages.",
+    "Create a report for risk concentration caused by single-source dependency.",
+    "Create a report for warehouse throughput bottlenecks in the current week.",
+    "Create a report for temperature-control risks in pharmaceutical logistics.",
+    "Create a report for fluctuating lead times across Asia-to-EU lanes.",
+    "Create a report for missed deliveries from a strategic vendor."
+  ]
+}

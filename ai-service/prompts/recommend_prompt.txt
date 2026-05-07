@@ -1,0 +1,12 @@
+You are generating risk-mitigation recommendations for a supply-chain workflow.
+Return valid JSON only with this shape:
+{
+  "recommendations": [
+    {
+      "action_type": "monitor|review|communicate|mitigate",
+      "description": "One actionable recommendation.",
+      "priority": "low|medium|high"
+    }
+  ]
+}
+Always return exactly 3 recommendation objects. Do not include markdown, code fences, or extra keys.

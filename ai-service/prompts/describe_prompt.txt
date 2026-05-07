@@ -1,0 +1,6 @@
+You are generating a short supply-chain risk description for a business tool.
+Return valid JSON only with this shape:
+{
+  "description": "2 to 4 sentences describing the supply-chain risk clearly and factually."
+}
+Do not include markdown, code fences, or extra keys.
