@@ -1,3 +1,11 @@
+server:
+  port: 8080
+
 ai:
   service:
     base-url: ${AI_SERVICE_BASE_URL:http://localhost:5000}
+
+security:
+  jwt:
+    secret: ${JWT_SECRET:01234567890123456789012345678901}
+    expiration-minutes: ${JWT_EXPIRATION_MINUTES:60}
